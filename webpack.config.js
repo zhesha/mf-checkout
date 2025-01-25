@@ -9,7 +9,7 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8081/",
+    publicPath: "https://zhesha.github.io/mf-checkout/dist/",
   },
 
   resolve: {
